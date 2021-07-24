@@ -1,4 +1,4 @@
-# Choucair
+# Ejecución Completa
 
 Actualmente el programa ejecuta correctamente unas pruebas propias, ya que las pruebas desarrolladas
 en el curso, no se puede ejecutar porque mi usuario no tiene los permisos necesarios para acceder
