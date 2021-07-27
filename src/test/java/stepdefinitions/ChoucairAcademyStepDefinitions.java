@@ -32,6 +32,6 @@ public class ChoucairAcademyStepDefinitions {
 
     @Then ("^she finds the course called$")
     public void heFindsTheCourseCalledResourcesRecoursesAutomation(List<AcademyChoucairData> academyChoucairData) throws Exception {
-      //OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(academyChoucairData.get(0).getStrCourse())));
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(academyChoucairData.get(0).getStrCourse())));
     }
 }

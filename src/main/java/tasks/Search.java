@@ -18,10 +18,10 @@ public class Search implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
     actor.attemptsTo(Click.on(SearchCoursePage.BUTTON_UC),
-          //  Enter.theValue(course).into(SearchCoursePage.INPUT_COURSE),
-          //  Click.on(SearchCoursePage.BUTTON_GO)
-          //  Click.on(SearchCoursePage.SELECT_COURSE)
-              Click.on(SearchCoursePage.BUTTON_GO2)
+            Enter.theValue(course).into(SearchCoursePage.INPUT_COURSE),
+            Click.on(SearchCoursePage.BUTTON_GO),
+            Click.on(SearchCoursePage.SELECT_COURSE)
+          //    Click.on(SearchCoursePage.BUTTON_GO2)
     );
     }
 
