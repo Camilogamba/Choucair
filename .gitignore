@@ -1,5 +1,5 @@
-/qqq/
-
-/aaa/
-
-/sss/
+.idea/
+.gradle/
+*.iml
+*.iws
+*.editorconfig
